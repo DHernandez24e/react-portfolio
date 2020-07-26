@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return(
-        <section>
+        <section className='m-3'>
             <h3>About Me</h3>
             <p>Thank you for visiting my page! My name is Diego Hernandez, and I am a budding web developer looking to 
                 dive into expanding my horizons in this ever-growing field. I started learning about coding programs in

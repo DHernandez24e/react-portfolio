@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
 
     return(
-        <footer>
+        <footer className='bg-info'>
             This is the footer
         </footer>
     )

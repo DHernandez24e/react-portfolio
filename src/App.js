@@ -27,7 +27,7 @@ function App() {
     }
 
   return (
-    <div>
+    <div className='bg-danger'>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div>
         {renderPage()}

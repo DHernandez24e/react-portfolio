@@ -4,7 +4,7 @@ function Nav(props) {
     const links = ['About', 'Projects', 'Contact', 'Resume']
 
     return(
-            <ul className='nav'>
+            <ul className='nav nav-pills nav-fill'>
                 {links.map(link => (
                     <li className='nav-item' key={link}>
                         <a

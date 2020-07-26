@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Tech Stop-n-Shop",
+        "image": "/src/assets/img/coming-soon.jpg",
+        "description": "An e-commerce site for all your techy needs",
+        "repo_link": "https://github.com/DHernandez24e/"
+    },
+    {
+        "name": "Search The Sound",
+        "image": "/assets/img/coming-soon.jpg",
+        "description": "A music curating website, discover new and favorite artists",
+        "repo_link": "https://github.com/DHernandez24e/"
+    },
+    {
+        "name": "Run Buddy",
+        "image": "/assets/img/coming-soon.jpg",
+        "description": "Connect with a personal trainer to help achieve your fitness goals",
+        "repo_link": "https://github.com/DHernandez24e/"
+    },
+    {
+        "name": "Expense Tracker",
+        "image": "/assets/img/coming-soon.jpg",
+        "description": "An app great for keeping track of your budget",
+        "repo_link": "https://github.com/DHernandez24e/"
+    },
+    {
+        "name": "Doggo Tech Blog",
+        "image": "/assets/img/coming-soon.jpg",
+        "description": "A blog site great for connecting with other developers",
+        "repo_link": "https://github.com/DHernandez24e/"
+    }
+]
