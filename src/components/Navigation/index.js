@@ -1,17 +1,24 @@
 import React from 'react';
 
-function Nav() {
-
+function Nav(props) {
+    const links = ['About', 'Projects', 'Contact', 'Resume']
 
     return(
-        <nav>
-            <ul>
-                <li>Item One</li>
-                <li>Item Two</li>
-                <li>Item Three</li>
-                <li>Item Four</li>
+            <ul className='nav'>
+                {links.map(link => (
+                    <li className='nav-item' key={link}>
+                        <a
+                            href={'#' + link.toLowerCase()}
+                            onClick={() => props.setCurrentPage(link)}
+                            className={
+                                props.currentPage === link ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                        {link}    
+                        </a>
+                    </li>
+                ))}
             </ul>
-        </nav>
     );
 }
 
