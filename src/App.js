@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import './bootstrap.css'
+import '../src/assets/css/font-awesome-4.7.0/css/font-awesome.css'
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
 import Portfolio from '../src/components/Portfolio';
@@ -9,7 +10,7 @@ import About from '../src/components/About';
 import Resume from '../src/components/Resume';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('About')
+  const [currentPage, setCurrentPage] = useState('Projects')
 
     const renderPage = () => {
       switch (currentPage) {
@@ -27,9 +28,9 @@ function App() {
     }
 
   return (
-    <div className='bg-danger'>
+    <div className='bg-primary'>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <div>
+      <div className='vh-100 overflow-auto'>
         {renderPage()}
       </div>
       <Footer/>

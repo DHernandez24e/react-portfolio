@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
     return(
-        <section>
+        <section className='m-3 p-4 h-75 bg-success'>
             <h3>Resume</h3>
             <a href='/'>Download my resume</a>
             <ul>Front End Technologies:

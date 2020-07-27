@@ -2,9 +2,9 @@ import React from 'react';
 
 function About() {
     return(
-        <section className='m-3'>
+        <section className='m-3 p-4 h-75 bg-success'>
             <h3>About Me</h3>
-            <p>Thank you for visiting my page! My name is Diego Hernandez, and I am a budding web developer looking to 
+            <p className='p-3'>Thank you for visiting my page! My name is Diego Hernandez, and I am a budding web developer looking to 
                 dive into expanding my horizons in this ever-growing field. I started learning about coding programs in
                 high school but did not pursue it later on due to getting into different job fields. I started learning about
                 full-stack web development through UC Berkeley Extension by the form of a 6 month bootcamp, where we picked up

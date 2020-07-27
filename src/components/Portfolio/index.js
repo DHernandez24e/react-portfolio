@@ -6,9 +6,9 @@ function Portfolio() {
     const renderProject = (projectList) => {
         return(
             <Project
-                key={projectList.name}
+                id={projectList.id}
+                key={projectList.id}
                 name={projectList.name}
-                image={projectList.image}
                 description={projectList.description}
                 repo_link={projectList.repo_link}
             />
@@ -16,8 +16,10 @@ function Portfolio() {
     }
 
     return(
-        <section className='col-6'>
-            {projectList.map(renderProject)}
+        <section className='p-4 bg-success container-fluid justify-content-center'>
+            <div className='row'>
+                {projectList.map(renderProject)}
+            </div>
         </section>
     )
 }

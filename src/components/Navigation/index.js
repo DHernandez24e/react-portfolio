@@ -11,7 +11,7 @@ function Nav(props) {
                             href={'#' + link.toLowerCase()}
                             onClick={() => props.setCurrentPage(link)}
                             className={
-                                props.currentPage === link ? 'nav-link active' : 'nav-link'
+                                props.currentPage === link ? 'nav-link active' : 'nav-link font-weight-bold'
                             }
                         >
                         {link}    
