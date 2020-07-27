@@ -4,7 +4,7 @@ function Resume() {
     return(
         <section className='m-3 p-4 h-75 bg-success'>
             <h3>Resume</h3>
-            <a href='/'>Download my resume</a>
+            {/* <a href='/'>Download my resume</a> */}
             <h3>Front End Technologies:</h3>
             <ul>
                 <li>HTML</li>
