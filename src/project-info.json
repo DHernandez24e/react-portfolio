@@ -3,30 +3,35 @@
         "id": 1,
         "name": "Tech Stop-n-Shop",
         "description": "An e-commerce site for all your techy needs",
-        "repo_link": "https://github.com/DHernandez24e/"
+        "repo_link": "https://github.com/DHernandez24e/tech-stop-n-shop",
+        "live_link": "https://arcane-anchorage-18356.herokuapp.com/"
     },
     {   
         "id": 2,
         "name": "Search The Sound",
         "description": "A music curating website, discover new and favorite artists",
-        "repo_link": "https://github.com/DHernandez24e/"
+        "repo_link": "https://github.com/DHernandez24e/search-the-sound",
+        "live_link": "https://dhernandez24e.github.io/search-the-sound/"
     },
     {
         "id": 3,
         "name": "Run Buddy",
         "description": "Connect with a personal trainer to help achieve your fitness goals",
-        "repo_link": "https://github.com/DHernandez24e/"
+        "repo_link": "https://github.com/DHernandez24e/run-buddy",
+        "live_link": "https://dhernandez24e.github.io/run-buddy/"
     },
     {   
         "id": 4,
         "name": "Expense Tracker",
         "description": "An app great for keeping track of your budget",
-        "repo_link": "https://github.com/DHernandez24e/"
+        "repo_link": "https://github.com/DHernandez24e/budget-tracker",
+        "live_link": "https://radiant-depths-19820.herokuapp.com/"
     },
     {   
         "id": 5,
         "name": "Doggo Tech Blog",
         "description": "A blog site great for connecting with other developers",
-        "repo_link": "https://github.com/DHernandez24e/"
+        "repo_link": "https://github.com/DHernandez24e/doggo-tech-blog",
+        "live_link": "https://murmuring-eyrie-55681.herokuapp.com/"
     }
 ]

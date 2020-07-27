@@ -11,6 +11,7 @@ function Portfolio() {
                 name={projectList.name}
                 description={projectList.description}
                 repo_link={projectList.repo_link}
+                live_link={projectList.live_link}
             />
         )
     }

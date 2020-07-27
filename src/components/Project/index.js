@@ -9,7 +9,10 @@ function Project(props) {
                     <h2>{props.name}</h2>
                     <p>{props.description}</p>
                     <a href={props.repo_link}>
-                        <i className="fa fa-github" aria-hidden="true" style={{ fontSize: '30px' }}></i>
+                        <i className="fa fa-github px-2" aria-hidden="true" style={{ fontSize: '40px' }}></i>
+                    </a>
+                    <a href={props.live_link}>
+                        <i className="fa fa-globe px-2" aria-hidden="true" style={{ fontSize: '40px' }}></i>
                     </a>
                 </div>
             </div>

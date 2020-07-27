@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import './bootstrap.css'
 import '../src/assets/css/font-awesome-4.7.0/css/font-awesome.css'
@@ -10,7 +10,7 @@ import About from '../src/components/About';
 import Resume from '../src/components/Resume';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Projects')
+  const [currentPage, setCurrentPage] = useState('About')
 
     const renderPage = () => {
       switch (currentPage) {
@@ -26,6 +26,10 @@ function App() {
             return <About/>
       }
     }
+
+    useEffect(() => {
+      document.title = currentPage
+    })
 
   return (
     <div className='bg-primary'>
